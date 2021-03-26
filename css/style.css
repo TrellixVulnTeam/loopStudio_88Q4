@@ -1,8 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Alata", sans-serif; }
+
 .attribution {
   font-size: 11px;
-  text-align: center;
-}
+  text-align: center; }
 
 .attribution a {
-  color: #3e52a3;
-}
+  color: #3e52a3; }
+
+.header {
+  background: url("../../images/desktop/image-hero.jpg") no-repeat center;
+  background-size: cover;
+  height: 80vh; }
+
+.navigation__logo {
+  width: 20rem; }
+
+.navigation--list {
+  margin-left: auto; }
+
+.navigation--item {
+  padding: 0 1rem; }
+
+.navigation--link {
+  font-size: 1.8rem; }
