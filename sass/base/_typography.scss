@@ -1,6 +1,20 @@
 body {
   font-family: "Alata", sans-serif;
-  //   font-family: "Josefin Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+.heading-1 {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+
+  // to avoid border span to full width(bootstrap)
+  width: max-content;
+
+  @media only screen and (max-width: 36em) {
+    font-size: 4rem;
+  }
 }

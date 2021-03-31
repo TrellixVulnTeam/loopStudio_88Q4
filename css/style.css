@@ -11,7 +11,23 @@ html {
   box-sizing: border-box; }
 
 body {
-  font-family: "Alata", sans-serif; }
+  font-family: "Alata", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300; }
+
+.heading-1 {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  width: max-content; }
+  @media only screen and (max-width: 36em) {
+    .heading-1 {
+      font-size: 4rem; } }
+
+.mt-xlg {
+  margin-top: 8rem; }
 
 .attribution {
   font-size: 11px;
@@ -21,7 +37,7 @@ body {
   color: #3e52a3; }
 
 .header {
-  background: url("../../images/desktop/image-hero.jpg") no-repeat center;
+  background: url("../images/desktop/image-hero.jpg") no-repeat center;
   background-size: cover;
   height: 80vh; }
 
@@ -35,4 +51,19 @@ body {
   padding: 0 1rem; }
 
 .navigation--link {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  position: relative; }
+  .navigation--link::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background-color: transparent;
+    bottom: -2px;
+    left: 50%;
+    transition: all 0.3s; }
+  .navigation--link:hover::after {
+    left: 25%;
+    background-color: #fff;
+    width: 50%; }
