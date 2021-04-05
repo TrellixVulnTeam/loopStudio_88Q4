@@ -59,6 +59,9 @@ body {
   background: url("../images/desktop/image-hero.jpg") no-repeat center;
   background-size: cover;
   height: 80vh; }
+  @media only screen and (max-width: 767px) {
+    .header {
+      background: url("../images/mobile/image-hero.jpg") no-repeat center; } }
 
 .navigation__logo {
   width: 15rem;
@@ -133,3 +136,6 @@ body {
     font-size: 2.5rem;
     bottom: 5%;
     left: 20%; }
+    @media only screen and (max-width: 576px) {
+      .gallery .caption {
+        font-size: 1.8rem; } }
