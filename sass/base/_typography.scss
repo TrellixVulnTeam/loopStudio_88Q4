@@ -1,20 +1,38 @@
 body {
   font-family: "Alata", sans-serif;
-  font-size: 1.6rem;
   font-weight: 300;
+}
+
+.heading-1,
+.heading-2,
+.caption {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .heading-1 {
   font-size: 5rem;
-  font-weight: 300;
   color: #fff;
-  font-family: "Josefin Sans", sans-serif;
-  text-transform: uppercase;
 
   // to avoid border span to full width(bootstrap)
   width: max-content;
 
   @media only screen and (max-width: 36em) {
-    font-size: 4rem;
+    font-size: 3rem;
   }
+}
+
+.heading-2 {
+  font-size: 4rem;
+
+  @media only screen and (max-width: 36em) {
+    font-size: 2.5rem;
+  }
+}
+
+.paragraph {
+  color: hsl(0, 0%, 41%);
+  font-size: 1.6rem;
+  line-height: 1.8;
 }
