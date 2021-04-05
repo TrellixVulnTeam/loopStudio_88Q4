@@ -21,11 +21,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
     <title>Loop Studios landing page</title>
   </head>
   <body>
     <header class="header">
-      <nav class="navbar navbar-expand-md navbar-dark navigation">
+      <nav class="navbar navbar-expand-md navbar-dark px-4 navigation">
         <svg class="navigation__logo">
           <use href="images/sprite.svg#logo"></use>
         </svg>
@@ -41,7 +42,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 navigation--list">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto navigation--list">
             <li class="nav-item navigation--item">
               <a class="nav-link navigation--link text-white" href="#">
                 About
@@ -206,26 +207,71 @@
         </div>
       </section>
     </main>
-    <!-- 
-
-  
-
- 
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved. -->
-
-    <!-- <div class="attribution">
+    <footer class="footer bg-dark p-3 text-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <svg class="navigation__logo">
+              <use href="images/sprite.svg#logo"></use>
+            </svg>
+            <nav class="navbar navbar-expand-md navbar-dark navigation">
+              <ul class="navbar-nav mb-2 mb-lg-0 navigation--list">
+                <li class="nav-item navigation--item">
+                  <a class="nav-link navigation--link text-white" href="#">
+                    About
+                  </a>
+                </li>
+                <li class="nav-item navigation--item">
+                  <a class="nav-link navigation--link text-white" href="#">
+                    Careers
+                  </a>
+                </li>
+                <li class="nav-item navigation--item">
+                  <a class="nav-link navigation--link text-white" href="#">
+                    Events
+                  </a>
+                </li>
+                <li class="nav-item navigation--item">
+                  <a class="nav-link navigation--link text-white" href="#">
+                    Products
+                  </a>
+                </li>
+                <li class="nav-item navigation--item">
+                  <a class="nav-link navigation--link text-white" href="#">
+                    Support
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-6 d-flex flex-column">
+            <div class="icon-box ms-lg-auto">
+              <svg class="footer--icon ms-md-auto me-4">
+                <use href="images/sprite.svg#icon-facebook"></use>
+              </svg>
+              <svg class="footer--icon me-4">
+                <use href="images/sprite.svg#icon-twitter"></use>
+              </svg>
+              <svg class="footer--icon me-4">
+                <use href="images/sprite.svg#icon-pinterest"></use>
+              </svg>
+              <svg class="footer--icon me-4">
+                <use href="images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <p class="paragraph ms-lg-auto mt-3">
+              © 2021 Loopstudios. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="attribution p-3 fs-3">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by <a href="https://github.com/PawanJS">Pawanjs</a>.
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
