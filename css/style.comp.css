@@ -128,7 +128,6 @@ body {
 .gallery {
   margin-top: 5rem; }
   .gallery img {
-    width: 100%;
     border-radius: 0.3rem;
     filter: brightness(80%); }
   .gallery .caption {
